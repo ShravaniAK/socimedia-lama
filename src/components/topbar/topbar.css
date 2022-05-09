@@ -94,3 +94,13 @@
     object-fit: cover;
     cursor: pointer;
   }
+  @media (max-width:500px){
+      .topbarContainer{
+          display: flex;
+          width: 600px;
+          /* flex-direction: column; */
+      }
+      .topbarLinks{
+          display: none;
+      }
+  }
